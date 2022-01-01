@@ -1,0 +1,12 @@
+D:\Users\mvila\source\repos\MarsRoverGuided2\MarsRoverGuided\MarsRoverGuided\bin\Debug\net5.0\MarsRoverGuided.deps.json
+D:\Users\mvila\source\repos\MarsRoverGuided2\MarsRoverGuided\MarsRoverGuided\bin\Debug\net5.0\MarsRoverGuided.dll
+D:\Users\mvila\source\repos\MarsRoverGuided2\MarsRoverGuided\MarsRoverGuided\bin\Debug\net5.0\ref\MarsRoverGuided.dll
+D:\Users\mvila\source\repos\MarsRoverGuided2\MarsRoverGuided\MarsRoverGuided\bin\Debug\net5.0\MarsRoverGuided.pdb
+D:\Users\mvila\source\repos\MarsRoverGuided2\MarsRoverGuided\MarsRoverGuided\obj\Debug\net5.0\MarsRoverGuided.csproj.AssemblyReference.cache
+D:\Users\mvila\source\repos\MarsRoverGuided2\MarsRoverGuided\MarsRoverGuided\obj\Debug\net5.0\MarsRoverGuided.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\mvila\source\repos\MarsRoverGuided2\MarsRoverGuided\MarsRoverGuided\obj\Debug\net5.0\MarsRoverGuided.AssemblyInfoInputs.cache
+D:\Users\mvila\source\repos\MarsRoverGuided2\MarsRoverGuided\MarsRoverGuided\obj\Debug\net5.0\MarsRoverGuided.AssemblyInfo.cs
+D:\Users\mvila\source\repos\MarsRoverGuided2\MarsRoverGuided\MarsRoverGuided\obj\Debug\net5.0\MarsRoverGuided.csproj.CoreCompileInputs.cache
+D:\Users\mvila\source\repos\MarsRoverGuided2\MarsRoverGuided\MarsRoverGuided\obj\Debug\net5.0\MarsRoverGuided.dll
+D:\Users\mvila\source\repos\MarsRoverGuided2\MarsRoverGuided\MarsRoverGuided\obj\Debug\net5.0\ref\MarsRoverGuided.dll
+D:\Users\mvila\source\repos\MarsRoverGuided2\MarsRoverGuided\MarsRoverGuided\obj\Debug\net5.0\MarsRoverGuided.pdb

@@ -20,6 +20,7 @@ namespace MarsRoverGuided.Tests
         [Theory]
         [InlineData("0:1:N", "0:2:N")]
         [InlineData("0:2:N", "0:3:N")]
+        [InlineData("1:1:W", "0:1:W")]
         public void MoveForward(string initialState, string finalState)
         {
             //Arrange - Given

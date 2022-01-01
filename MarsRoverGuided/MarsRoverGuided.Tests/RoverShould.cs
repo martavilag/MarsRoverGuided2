@@ -21,6 +21,7 @@ namespace MarsRoverGuided.Tests
         [InlineData("0:1:N", "0:2:N")]
         [InlineData("0:2:N", "0:3:N")]
         [InlineData("1:1:W", "0:1:W")]
+        [InlineData("1:1:E", "2:1:E")]
         public void MoveForward(string initialState, string finalState)
         {
             var marsRover = new MarsRover(initialState);

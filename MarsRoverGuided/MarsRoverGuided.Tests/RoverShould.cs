@@ -10,14 +10,24 @@ namespace MarsRoverGuided.Tests
         [InlineData("1:1:W")]
         public void ReturnInitialState (string initialState)
         {
-            //Arrange - Given
             var marsRover = new MarsRover(initialState);
-            //Act - When
+
             var result = marsRover.Execute("");
-            //Assert - Then
+
             result.Should().Be(initialState);
         }
-        
-       
+
+        [Fact]
+        public void MoveForward()
+        {
+            //Arrange - Given
+            var marsRover = new MarsRover("0:0:N");
+            //Act - When
+            var result = marsRover.Execute("M");
+            //Assert - Then
+            result.Should().Be("0:1:N");
+
+        }
+
     }
 }

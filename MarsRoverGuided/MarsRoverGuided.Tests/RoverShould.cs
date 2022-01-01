@@ -17,16 +17,17 @@ namespace MarsRoverGuided.Tests
             result.Should().Be(initialState);
         }
 
-        [Fact]
-        public void MoveForward()
+        [Theory]
+        [InlineData("0:1:N", "0:2:N")]
+        [InlineData("0:2:N", "0:3:N")]
+        public void MoveForward(string initialState, string finalState)
         {
             //Arrange - Given
-            var marsRover = new MarsRover("0:0:N");
+            var marsRover = new MarsRover(initialState);
             //Act - When
             var result = marsRover.Execute("M");
             //Assert - Then
-            result.Should().Be("0:1:N");
-
+            result.Should().Be(finalState);
         }
 
     }

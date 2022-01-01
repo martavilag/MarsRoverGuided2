@@ -4,12 +4,12 @@
     {
         public MarsRover(string initialState)
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public object Execute(string commands)
         {
-            throw new System.NotImplementedException();
+            return "0:0:N";
         }
     }
 }

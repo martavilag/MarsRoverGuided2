@@ -22,7 +22,13 @@ namespace MarsRoverGuided
             _direction = _initialState.Split(":")[2];
 
             if (commands == "M")
-                return $"{_x}:{_y+1}:{_direction}";
+            {
+                if (_direction == "N")
+                    return $"{_x}:{_y+1}:{_direction}";
+                if (_direction == "W")
+                    return $"{_x-1}:{_y}:{_direction}";
+            }
+                
             return _initialState;
         }
     }

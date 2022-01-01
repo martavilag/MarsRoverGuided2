@@ -14,7 +14,17 @@ namespace MarsRoverGuided.Tests
             var result = marsRover.Execute("");
             //assert
             result.Should().Be("0:0:N");
-
+        }
+        
+        [Fact]
+        public void ReturnInitialStateWithAnotherPosition()
+        {
+            //arrange
+            var marsRover = new MarsRover("1:1:W");
+            //act
+            var result = marsRover.Execute("");
+            //assert
+            result.Should().Be("1:1:W");
         }
     }
 }

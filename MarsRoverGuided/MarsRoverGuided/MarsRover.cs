@@ -29,7 +29,7 @@ namespace MarsRoverGuided
                     return $"{_x-1}:{_y}:{_direction}";
             }
                 
-            return _initialState;
+            return $"{_x}:{_y}:{_direction}";
         }
     }
 }

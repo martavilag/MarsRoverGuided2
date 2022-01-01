@@ -23,11 +23,10 @@ namespace MarsRoverGuided.Tests
         [InlineData("1:1:W", "0:1:W")]
         public void MoveForward(string initialState, string finalState)
         {
-            //Arrange - Given
             var marsRover = new MarsRover(initialState);
-            //Act - When
+
             var result = marsRover.Execute("M");
-            //Assert - Then
+
             result.Should().Be(finalState);
         }
 

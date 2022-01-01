@@ -5,26 +5,19 @@ namespace MarsRoverGuided.Tests
 {
     public class RoverShould
     {
-        [Fact]
-        public void ReturnInitialState()
+        [Theory]
+        [InlineData("0:0:N")]
+        [InlineData("1:1:W")]
+        public void ReturnInitialState (string initialState)
         {
-            //arrange
-            var marsRover = new MarsRover("0:0:N");
-            //act
+            //Arrange - Given
+            var marsRover = new MarsRover(initialState);
+            //Act - When
             var result = marsRover.Execute("");
-            //assert
-            result.Should().Be("0:0:N");
+            //Assert - Then
+            result.Should().Be(initialState);
         }
         
-        [Fact]
-        public void ReturnInitialStateWithAnotherPosition()
-        {
-            //arrange
-            var marsRover = new MarsRover("1:1:W");
-            //act
-            var result = marsRover.Execute("");
-            //assert
-            result.Should().Be("1:1:W");
-        }
+       
     }
 }
